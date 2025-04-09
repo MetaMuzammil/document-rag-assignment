@@ -1,0 +1,14 @@
+# requirements.txt
+streamlit>=1.22.0
+torch>=2.0.0
+PyPDF2>=3.0.0
+langchain>=0.0.235
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+accelerate>=0.20.0
+black>=23.3.0
+pytest>=7.3.1
+spacy>=3.5.3
+python-dotenv>=1.0.0
+langchain-community
