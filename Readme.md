@@ -5,15 +5,15 @@ An intelligent document analysis tool built with LangChain and Streamlit that pr
 
 ## Installation and Setup
 
-# 1. Clone the repository
+### 1. Clone the repository
     git clone <repository-url>
     cd document-assessment-assistant
 
-# 2. Create a virtual environment (using Make)
+### 2. Create a virtual environment (using Make)
     make setup    
     make install-dev
 
-# 3. Set up environment variables in .env:
+### 3. Set up environment variables in .env:
     
     EMBEDDINGS_MODEL=sentence-transformers/all-MiniLM-L6-v2
     LLM_MODEL=google/flan-t5-base
@@ -21,13 +21,13 @@ An intelligent document analysis tool built with LangChain and Streamlit that pr
     TEMPERATURE=0.7
     HF_API_KEY=your_huggingface_api_key
 
-# 4. Start the Stremlit UI
+### 4. Start the Stremlit UI
     make run
 
-# 5. Testing the python code
+### 5. Testing the python code
     make test
 
-# 6. Run all Steps
+### 6. Run all Steps
     make all    
 
 ## Output Screenshots
